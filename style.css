@@ -1,0 +1,167 @@
+ body{
+    
+   background-image: url("https://cosmosgroup.sgp1.cdn.digitaloceanspaces.com/news/9608604.webp");
+   content: "This is some text";
+   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60%;
+    
+}
+.first-txt {
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    color: hsl(120, 33%, 3%);
+    font-size:xx-large;
+   font-family: monospace;
+   /* border-style:dashed; */
+   border-width: 5px;
+   background-color: aqua;
+   background-size: 70% auto;
+   width: 50%;
+   height: 50%;
+   
+}
+
+.Register-Now{
+    float: left;
+    margin-right: 20px;
+    max-width: 600px;
+    
+    padding: 20px;
+    margin: 0 auto;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border:3px hwb(244 18% 44%);
+    height: 800;
+    background-color: rgb(51, 22, 119);
+
+    box-shadow:5px 5px 2ox rgba(0, 0, 0,0.125) ;
+}
+
+.form{
+
+    float: left;
+    margin-right: 20px;
+
+    padding: 20px;
+    border: 1px solid rgb(67, 20, 76) ;
+    
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 0 auto;
+    background-color: rgb(243, 207, 207);
+
+
+
+}
+.input_field{
+    margin-bottom: 15px;
+    display: flex;
+align-items: center;
+
+}
+
+
+.input_field label{
+   
+    width: 200px;
+    margin-right: 10px;
+     font: size 14px;;
+}
+
+
+.input{
+    border: 2px solid black;
+    width: 100%;
+    outline: none;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+} 
+
+
+.btn{
+    border: none;
+					outline: none;
+					color: #fff;
+					background: #d63031;
+					padding: 10px 20px;
+					cursor: pointer;
+					border-radius: 5px;
+					margin-left: 8%;
+					font-size: 10px;
+}
+
+.image{
+    background-position:right;
+}
+.container{
+	width: 500px;
+	height: 450px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: rgba(44, 62, 80,0.7);
+	margin-top: 160px;
+}
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body {
+    background-color: #435165;
+}
+.login {
+    width: 400px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+.login h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+   margin-top: 20px;
+    background-color: #3274d6;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+  background-color: #2868c7;
+    transition: background-color 0.2s;
+}
